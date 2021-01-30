@@ -1,0 +1,87 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+form {
+    
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom:200px;
+}
+
+
+
+.main_button {
+    width: 100px;
+    margin: 5 auto;
+    color:transparent;
+    
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.rock {
+  background-image: url("rock.png");
+}
+
+.paper {
+  background-image: url("paper.png");
+}
+
+.scissors {
+  background-image: url("scissors.png");
+}
+
+.button_style {
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width:150px;
+  height:150px;
+
+
+}
+
+#form{
+  position: relative;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+
+.output_images{
+  width: 300px;
+  height: 300px;
+}
+
+
+.title_text{
+  color:black;
+   font-family: 'Raleway',sans-serif; 
+   font-size: 62px; font-weight: 800; 
+   text-transform: uppercase;
+}
+
+.result_text{
+  color:black;
+   font-family: 'Raleway',sans-serif; 
+   font-size: 24px; font-weight: 800; 
+   text-transform: uppercase;
+}
